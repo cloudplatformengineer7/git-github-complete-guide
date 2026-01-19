@@ -50,7 +50,6 @@ Example: You made an experimental commit and want to remove it completely:
 git reset --hard HEAD~1
 
 ⚠️ Warning: This action permanently deletes commits and changes.
-
 📌 Use only for local and unshared work.
 
 2. git revert
@@ -64,7 +63,8 @@ git revert abc123
 Git creates a new commit that cancels the changes made by abc123.
 
 ✔ Safe for shared branches
-✔ Preserves full history
+✔ Preserves full histor
+
 📌 Recommended for production and team environments.
 
 ###When to Use What
