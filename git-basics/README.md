@@ -17,7 +17,7 @@ Full history exists locally
 No single point of failure
 
 Benefits:
-Offline commits
-Faster operations
-Better security
-Easy recovery
+Offline commits,
+Faster operations,
+Better security,
+Easy recovery.
