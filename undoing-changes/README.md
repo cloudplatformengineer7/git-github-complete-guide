@@ -50,6 +50,7 @@ Example: You made an experimental commit and want to remove it completely:
 git reset --hard HEAD~1
 
 ⚠️ Warning: This action permanently deletes commits and changes.
+
 📌 Use only for local and unshared work.
 
 2. git revert
