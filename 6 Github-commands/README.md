@@ -1,4 +1,4 @@
-# 🔗 Git & GitHub – Remote Repository Commands
+### Git & GitHub – Remote Repository Commands
 
 This section explains how a **local Git repository communicates with a remote repository (GitHub)**.
 These commands are used daily by developers and DevOps engineers.
