@@ -1,4 +1,4 @@
-🔁 Fork vs Clone
+### Fork vs Clone
 
 🔹 Fork
 
