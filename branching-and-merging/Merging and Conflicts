@@ -1,4 +1,4 @@
-Merging Branches
+### Merging Branches
 
 Merging combines changes from one branch into another.
 
@@ -14,7 +14,7 @@ git merge feature-login
 
 📌 This brings all changes from feature-login into main.
 
-Merge Conflicts
+### Merge Conflicts
    
 A merge conflict occurs when:
 The same file is modified in both branches
