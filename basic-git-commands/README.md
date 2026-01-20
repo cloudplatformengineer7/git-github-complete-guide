@@ -2,25 +2,25 @@ This document covers all essential Git commands required to work with repositori
 
 1. Create or Download a Repository
    
-Initialize a New Repository
+ Initialize a New Repository
 
-Creates a new Git repository in the current directory:
+ Creates a new Git repository in the current directory:
 
-git init
+  git init
 
-2.Clone an Existing Repository
+2. Clone an Existing Repository
 
-Downloads a remote repository to your local system:
+ Downloads a remote repository to your local system:
 
-git clone <repository-url>
+ git clone <repository-url>
 
 3. Check Repository Status
    
-Displays the current state of files:
+ Displays the current state of files:
 
-git status
+ git status
 
-Shows:
+ Shows:
 
 Untracked files
 Modified files
@@ -28,68 +28,68 @@ Staged files
 
 4. Add Files to Staging Area
    
-Add a specific file:
+ Add a specific file:
 
-git add file.txt
+ git add file.txt
 
-Add all files:
+ Add all files:
 
-git add .
+ git add .
 
 📌 Staging prepares files for versioning.
 
 5. Commit Changes
    
-Save staged changes to the local repository:
+ Save staged changes to the local repository:
 
-git commit -m "Write a meaningful commit message"
+ git commit -m "Write a meaningful commit message"
 
 📌 A commit represents a snapshot of the project.
 
 6. View File Differences
    
-Check unstaged changes:
+ Check unstaged changes:
 
-git diff
+ git diff
 
-Check staged changes:
+ Check staged changes:
 
-git diff --staged
+ git diff --staged
 
 7. Remove Files
    
-Remove file from Git and working directory:
+ Remove file from Git and working directory:
 
-git rm file.txt
+ git rm file.txt
 
-Remove file only from tracking:
+ Remove file only from tracking:
 
-git rm --cached file.txt
+ git rm --cached file.txt
 
 8. Rename or Move Files
 
-Rename or move a file:
+ Rename or move a file:
 
-git mv old_name.txt new_name.txt
+ git mv old_name.txt new_name.txt
 
 9. Undo Changes
     
-Discard local file changes:
+ Discard local file changes:
 
-git checkout -- file.txt
+ git checkout -- file.txt
 
-Unstage a file
+ Unstage a file
 
-git restore --staged file.txt
+ git restore --staged file.txt
 
 
 10.Summary
 
-git init → create repository
-git clone → download repository
-git add → stage changes
-git commit → save changes
-git status → check state
-git log → view history
+ git init → create repository
+ git clone → download repository
+ git add → stage changes
+ git commit → save changes
+ git status → check state
+ git log → view history
 
 These commands form the foundation of Git usage.
