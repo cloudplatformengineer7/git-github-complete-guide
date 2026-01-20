@@ -86,10 +86,15 @@ Staged files
 10.Summary
 
  git init → create repository
+ 
  git clone → download repository
+ 
  git add → stage changes
+ 
  git commit → save changes
+ 
  git status → check state
+ 
  git log → view history
 
 These commands form the foundation of Git usage.
