@@ -1,0 +1,21 @@
+GitHub Flow Strategy:
+
+What It Is
+
+A simpler strategy focused on continuous deployment.
+
+Branch Structure
+
+"main" → always deployable
+Short-lived feature branches
+Example
+
+git checkout -b feature-search
+
+Open a Pull Request → Review → Merge to "main".
+
+When to Use
+
+✔ SaaS products ✔ CI/CD pipelines ✔ Fast deployments
+
+📌 Simple, clean, and modern.
