@@ -1,0 +1,23 @@
+Git Flow → Multi-Stage DevOps Pipeline
+Typical Branches
+
+"feature/*"
+"develop"
+"release/*"
+"hotfix/*"
+"main"
+DevOps Pipeline Mapping
+
+feature/* → CI (build + test) develop → CI + deploy to DEV release/* → CI + deploy to QA/UAT main → CD deploy to PROD hotfix/* → Fast-track PROD deploy
+
+Real Example
+
+Feature merged into "develop"
+Auto deploy to DEV
+Release branch created
+Deploy to QA
+Release merged into "main"
+Deploy to PROD
+
+📌 Used in: Enterprises
+📌 Best for: Controlled releases, compliance environments
