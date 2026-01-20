@@ -1,0 +1,17 @@
+When to Use What
+
+Feature branch (local)| "git rebase"
+Shared branch| "git merge"
+Production fix| "git cherry-pick"
+Work in progress| "git stash"
+Release versioning| "git tag"
+
+Summary
+
+- "git rebase" → clean history
+- "git merge" → safe collaboration
+- "git cherry-pick" → selective commits
+- "git stash" → temporary save
+- "git tag" → release marking
+
+These commands are essential for advanced Git workflows used in professional development and DevOps environments.
