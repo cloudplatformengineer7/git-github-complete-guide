@@ -1,0 +1,20 @@
+Trunk-Based Development:
+
+What It Is
+
+All developers work on a single main branch ("main" or "trunk") with very short-lived branches.
+
+Key Rules
+
+Frequent commits
+Small changes
+Strong automated testing
+Example
+
+git checkout -b small-fix git commit -m "Fix validation issue" git merge main
+
+When to Use
+
+✔ High DevOps maturity ✔ Strong CI/CD ✔ Microservices
+
+📌 Encourages rapid delivery.
