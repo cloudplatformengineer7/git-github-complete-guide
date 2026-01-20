@@ -77,7 +77,9 @@ Prefer revert in collaborative projects
 ### Summary
 
 git reset --soft → undo commit, keep changes
+
 git reset --hard → undo commit and changes
+
 git revert → safe undo with history preserved
 
 Understanding these commands helps you fix mistakes without breaking your project history.
