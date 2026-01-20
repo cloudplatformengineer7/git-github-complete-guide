@@ -44,21 +44,21 @@ Expected output:
 
 git version 2.x.x
 
-###Configure Git User Details
+### Configure Git User Details
 
 Git requires a username and email address to identify commit authors.
 
 git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 
-###Verify Configuration
+### Verify Configuration
 
 View all configured settings:
 
 git config --list
 
 
-###Optional Configuration
+### Optional Configuration
 
 Set Default Branch Name
 
