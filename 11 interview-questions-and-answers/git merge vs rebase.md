@@ -1,6 +1,6 @@
 ### git merge vs git rebase
 
-🔹 git merge
+# git merge
 
 git merge combines changes from one branch into another by creating a merge commit.
 It preserves complete history.
@@ -15,7 +15,7 @@ git merge feature-login
 📌 Safe for shared branches
 📌 History remains unchanged
 
-🔹 git rebase
+# git rebase
 
 git rebase moves your commits on top of another branch, creating a clean, linear history by rewriting commits.
 
