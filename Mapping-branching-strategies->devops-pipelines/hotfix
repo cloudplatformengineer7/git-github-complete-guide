@@ -1,0 +1,18 @@
+Hotfix Branch Strategy → Emergency Pipeline
+Typical Branches
+
+"hotfix/*"
+"main"
+DevOps Pipeline Flow
+
+hotfix/* → CI → PROD
+
+Real Example
+
+Production bug found
+Hotfix branch created
+Fast CI run
+Immediate production deployment
+
+📌 Used in: Incident response
+📌 Best for: Production stability
