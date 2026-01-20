@@ -1,0 +1,20 @@
+Feature Branch Strategy → CI Pipeline
+Typical Branches
+
+"main"
+"feature/*"
+DevOps Pipeline Flow
+
+feature/* → CI build + unit tests main → CI + CD (deploy)
+
+Real Example (Jenkins / GitHub Actions)
+
+Push to "feature-login"
+Run build
+Run unit tests
+Run static code analysis
+Merge to "main"
+Deploy to staging or production
+
+📌 Used in: Small teams, beginner DevOps setups 
+📌 Best for: Learning CI/CD fundamentals
