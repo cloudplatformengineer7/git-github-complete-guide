@@ -1,0 +1,30 @@
+Git Flow Strategy:
+
+What It Is
+
+A structured branching model designed for scheduled releases.
+
+Branches Used
+
+"main" → production code
+"develop" → integration branch
+"feature/*" → new features
+"release/*" → release preparation
+"hotfix/*" → urgent production fixes
+Example Workflow
+
+git checkout -b feature-payment develop
+
+After feature completion:
+
+git checkout develop git merge feature-payment
+
+Release preparation:
+
+git checkout -b release/v1.0 develop
+
+When to Use
+
+✔ Large teams ✔ Multiple releases ✔ Enterprise applications
+
+⚠️ Slightly complex to manage.
