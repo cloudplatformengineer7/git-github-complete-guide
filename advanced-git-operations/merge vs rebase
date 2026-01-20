@@ -11,8 +11,6 @@ git merge feature-login
 
 📌 Best for team collaboration and production branches
 
----
-
 git rebase
 
 - Rewrites commit history
