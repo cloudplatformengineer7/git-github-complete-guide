@@ -31,15 +31,6 @@ Think of it like moving your files through different “zones” before they bec
 
 ---
 
-## 🔄 Git File Lifecycle
-
-Every file in Git goes through **four** states:
-
-1. Untracked – New file, Git doesn’t track it yet  
-2. Staged – Changes added with git add, ready for commit  
-3. Committed – Changes saved permanently in the local repository  
-4. Modified – Tracked file changed but not yet staged  
-
 ---
 
 📌 **Quick Tip:**  
