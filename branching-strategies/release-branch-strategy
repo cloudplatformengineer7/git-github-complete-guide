@@ -1,0 +1,19 @@
+Release Branch Strategy:
+
+What It Is
+
+Separate branches are created specifically for releases.
+
+Branch Structure
+
+"main" → production
+"release/v1.1" → release stabilization
+Example
+
+git checkout -b release/v1.1 main
+
+Bug fixes applied only to release branch.
+
+When to Use
+
+✔ Long-running support versions ✔ Multiple active releases
