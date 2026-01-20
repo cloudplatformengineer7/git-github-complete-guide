@@ -1,0 +1,23 @@
+### git tag
+
+"git tag" is used to mark specific commits, usually for releases.
+
+---
+
+Create a Lightweight Tag
+
+git tag v1.0
+
+Create an Annotated Tag (Recommended)
+
+git tag -a v1.0 -m "Release version 1.0"
+
+List Tags
+
+git tag
+
+Push Tags to Remote
+
+git push origin v1.0
+
+📌 Commonly used for release versions (v1.0, v2.0)
