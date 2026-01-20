@@ -1,3 +1,19 @@
+Merging Branches
+
+Merging combines changes from one branch into another.
+
+Basic Merge
+
+First, switch to the target branch:
+
+git checkout main
+
+Merge the feature branch:
+
+git merge feature-login
+
+📌 This brings all changes from feature-login into main.
+
 Merge Conflicts
    
 A merge conflict occurs when:
