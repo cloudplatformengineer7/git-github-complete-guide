@@ -35,7 +35,7 @@ git commit -m "Fix login validation bug"
 
 📌 Use when you want to edit or squash commits.
 
-###Hard Reset
+### Hard Reset
 
 **What it does:**
 
@@ -68,13 +68,13 @@ Git creates a new commit that cancels the changes made by abc123.
 
 📌 Recommended for production and team environments.
 
-###When to Use What
+### When to Use What
 
 Use git reset → when working alone on local changes
 Use git revert → when changes are already pushed
 Prefer revert in collaborative projects
 
-###Summary
+### Summary
 
 git reset --soft → undo commit, keep changes
 git reset --hard → undo commit and changes
