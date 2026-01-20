@@ -3,7 +3,7 @@
 This section explains how a **local Git repository communicates with a remote repository (GitHub)**.
 These commands are used daily by developers and DevOps engineers.
 
-## 1️⃣ Linking Local Repository to Remote Repository
+##  Linking Local Repository to Remote Repository
 
 ### Command:
 
@@ -19,7 +19,7 @@ git remote add origin https://github.com/username/project.git
 
 📌 origin is the default name for the remote repository.
 
-## 2️⃣ View Linked Remote Repositories
+##  View Linked Remote Repositories
 
 ### Command:
 
@@ -35,7 +35,7 @@ Displays the **remote repository URLs** linked to your local repository.
 origin  https://github.com/username/project.git (fetch)
 origin  https://github.com/username/project.git (push)
 
-## 3️⃣ Push Code from Local to GitHub
+##  Push Code from Local to GitHub
 
 ### Command:
 
@@ -49,7 +49,7 @@ Pushes code from **local branch** to **GitHub** and sets upstream tracking.
 
 git push -u origin main
 
-## 4️⃣ Push Code to Multiple Branches
+##  Push Code to Multiple Branches
 
 ### Command:
 
@@ -59,7 +59,7 @@ git push origin branch-1 branch-2
 
 Pushes changes to **multiple branches** at the same time.
 
-## 5️⃣ Push All Local Branches to GitHub
+##  Push All Local Branches to GitHub
 
 ### Command:
 
@@ -69,7 +69,7 @@ git push -u origin --all
 
 Pushes **all local branches** to the remote repository.
 
-## 6️⃣ Clone a Remote Repository
+##  Clone a Remote Repository
 
 ### Command:
 
@@ -83,7 +83,7 @@ Downloads a **remote GitHub repository** to your local system.
 
 git clone https://github.com/username/project.
 
-## 7️⃣ Pull Changes from GitHub to Local
+##  Pull Changes from GitHub to Local
 
 ### Command:
 
@@ -100,7 +100,7 @@ git pull origin main
 
 📌 `git pull = git fetch + git merge`
 
-## 8️⃣ Fetch Changes from Remote Repository
+##  Fetch Changes from Remote Repository
 
 ### Command:
 
@@ -114,7 +114,7 @@ Downloads changes from GitHub **without merging** them.
 
 git fetch main
 
-## 9️⃣ Fetch All Branches from GitHub
+##  Fetch All Branches from GitHub
 
 ### Command:
 
@@ -133,7 +133,7 @@ Fetches updates from **all remote branches**.
 
 ---
 
-## 🔟 Merge Remote Branch into Local Branch
+## Merge Remote Branch into Local Branch
 
 ### Command:
 
@@ -147,7 +147,7 @@ Merges fetched remote branch changes into the current local branch.
 
 git merge origin/main
 
-## 1️⃣1️⃣ Delete a Branch from GitHub (Remote)
+##  Delete a Branch from GitHub (Remote)
 
 ### Command
 
@@ -159,7 +159,7 @@ Deletes a branch from the remote GitHub repository.
 Example:
 git push origin --delete feature-login
 
-1️⃣2️⃣ Remove Remote Repository Link
+Remove Remote Repository Link
 
 Command:
 git remote rm origin
@@ -167,7 +167,7 @@ Purpose:
 
 Unlinks the local repository from GitHub.
 
-1️⃣3️⃣ Rename a Remote Repository
+Rename a Remote Repository
 
 Command:
 git remote rename old-name new-name
