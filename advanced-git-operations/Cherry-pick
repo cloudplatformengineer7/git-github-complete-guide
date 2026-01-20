@@ -1,0 +1,16 @@
+### git cherry-pick
+
+"git cherry-pick" applies a specific commit from one branch to another.
+
+Command
+
+git cherry-pick <commit-id>
+
+Example
+
+A critical bug fix exists on "dev" branch:
+
+git checkout main
+git cherry-pick abc123
+
+📌 Useful for hotfixes and selective changes
