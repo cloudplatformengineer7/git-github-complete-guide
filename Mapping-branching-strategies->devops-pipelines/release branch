@@ -1,0 +1,18 @@
+Release Branch Strategy → Environment-Based Pipeline
+Typical Branches
+
+"main"
+"release/*"
+DevOps Pipeline Flow
+
+main → Development release/* → QA / UAT
+
+Real Example
+
+"release/v2.0" created
+Only bug fixes allowed
+Deployed to UAT
+Merged to "main" for production
+
+📌 Used in: Long-term support applications
+📌 Best for: Multiple active versions
