@@ -1,0 +1,16 @@
+### git stash
+
+"git stash" temporarily saves uncommitted changes and cleans the working directory.
+
+Command
+
+git stash
+
+Example
+
+You need to switch branches urgently:
+
+git stash
+git checkout main
+
+📌 Best when work is not ready to commit
