@@ -6,7 +6,9 @@ Each branch type usually triggers specific pipelines, environments, and approval
 ### Key DevOps Takeaway
 
 📌 Branching strategy defines your pipeline behavior
+
 📌 CI/CD tools follow branch rules
+
 📌 Better strategy = faster, safer deployments
 
 Choosing the right strategy is a core DevOps architectural decision.
