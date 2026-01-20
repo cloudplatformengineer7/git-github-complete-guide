@@ -14,3 +14,20 @@ git stash
 git checkout main
 
 📌 Best when work is not ready to commit
+
+# git stash pop
+
+"git stash pop" restores the latest stashed changes and removes them from stash list.
+
+Command
+
+git stash pop
+
+Example
+
+Return to your work:
+
+git checkout feature-login
+git stash pop
+
+📌 Conflicts may occur and must be resolved manually
