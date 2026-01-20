@@ -1,0 +1,15 @@
+Merge Conflicts
+   
+A merge conflict occurs when:
+The same file is modified in both branches
+Git cannot decide which change to keep
+
+Resolving Conflicts
+
+Open the conflicted file
+Choose the correct changes
+Remove conflict markers
+Commit the resolved changes
+
+git add .
+git commit -m "Resolve merge conflict"
