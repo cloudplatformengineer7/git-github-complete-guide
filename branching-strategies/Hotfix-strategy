@@ -1,0 +1,22 @@
+Hotfix Branch Strategy:
+
+What It Is
+
+Used to fix critical production bugs quickly.
+
+Branch Structure
+
+"hotfix/*" branches created from "main"
+Example
+
+git checkout -b hotfix/login-issue main
+
+After fix:
+
+git merge hotfix/login-issue
+
+When to Use
+
+✔ Production outages ✔ Emergency fixes
+
+📌 Ensures fast recovery without blocking development.
