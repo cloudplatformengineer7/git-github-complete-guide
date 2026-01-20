@@ -1,0 +1,13 @@
+Types of Merges
+
+Fast-Forward Merge
+
+Occurs when the target branch has no new commits.
+Git simply moves the pointer forward
+No merge commit created
+
+Three-Way Merge
+
+Occurs when both branches have new commits.
+Git creates a merge commit
+Preserves both histories
