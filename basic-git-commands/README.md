@@ -83,7 +83,7 @@ Staged files
  git restore --staged file.txt
 
 
-10.Summary
+10. Summary
 
  git init → create repository
  
