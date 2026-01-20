@@ -2,8 +2,6 @@
 
 "git tag" is used to mark specific commits, usually for releases.
 
----
-
 Create a Lightweight Tag
 
 git tag v1.0
